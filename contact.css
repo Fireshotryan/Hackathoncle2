@@ -1,0 +1,25 @@
+.bg-img {
+    background-image: url(img/contactbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    position: relative;
+}
+
+footer.has-background-primary {
+    margin-top: 40px;
+}
+
+.button.is-rounded {
+    margin: 10px;
+    border-radius: 9999px;
+    padding-left: calc(1em + 0.25em);
+    padding-right: calc(1em + 0.25em);
+}
+
+.has-background-primary {
+    background-color: darkgray!important;
+}
+
+.contactoformo {
+    margin-top: 30px;
+}

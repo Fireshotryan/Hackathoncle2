@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulma hackthon</title>
+    <link rel="icon" type="image/x-icon" href="img/Rogue.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <section class="hero is-primary is-medium">
+        <div class="bg-img">
+            <!-- Hero head: will stick at the top -->
+            <div class="hero-head">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item">
+                               gaming
+                            </a>
+                            <span class="navbar-burger" data-target="navbarMenuHeroA">
+                  <span></span>
+                            <span></span>
+                            <span></span>
+                            </span>
+                        </div>
+                        <div id="navbarMenuHeroA" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a class="navbar-item" href="index.html">Home</a>
+                                <a class="navbar-item" href="esport.html">Esport</a>
+                                <a class="navbar-item is-active" href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Hero content: will be in the middle -->
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <p class="title">
+                        Contact
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactoformo">
+        <div class="container box p-6
+                has-background-light">
+            <h1 class="title has-text-centered
+                 has-text-success">
+                Esports
+            </h1>
+            <h2 class="subtitle has-text-centered">
+                Contact
+            </h2>
+            <form action="">
+                <div class="field">
+                    <label class="label">Naam</label>
+                    <div class="control has-icons-left
+                      has-icons-right">
+                        <input class="input is-success" type="text" placeholder="Voer je naam in" />
+                        <span class="icon is-small is-left">
+              <i class="fa fa-user"></i>
+            </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left
+                      has-icons-right">
+                        <input class="input is-danger" type="email" placeholder="Vul je mail in" />
+                        <span class="icon is-small is-left">
+              <i class="fa fa-envelope"></i>
+            </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">
+            Esport waar je vragen over heb
+          </label>
+                    <div class="control">
+                        <div class="select">
+                            <select>
+                <option>League of legends</option>
+                <option>CS:GO</option>
+                <option>Valorant</option>
+              </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">
+            Bericht
+          </label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="wilt uw een bericht invullen?"></textarea>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox">
+              <input type="checkbox" />
+              I agree to the <a href="#">
+              terms and conditions
+              </a>
+            </label>
+                    </div>
+                </div>
+
+
+
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-success">
+              Stuur bericht
+            </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer has-background-primary">
+        <div class="content has-text-centered has-text-white">
+            <h1>Esports</h1>
+            <div class="columns">
+                <div class="column">
+                    <h6>About Us</h6>
+                    <p class="has-text-center">Gewoon wat tekst ooit.
+                    </p>
+                </div>
+                <div class="column">
+                    <h6>FPS</h6>
+                    <ul>
+                        <li><a href="https://www.counter-strike.net/">CS:GO</a></li>
+                        <li><a href="https://playvalorant.com/">Valorant</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h6>Moba</h6>
+                    <ul>
+                        <li><a href="https://www.leagueoflegends.com/en-us/news/riot-games/">League of legends</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h6>Subscribe</h6>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-medium" type="email" placeholder="Email">
+                        <span class="icon is-left">
+                <i class="fa fa-envelope"></i>
+                </span>
+                    </div>
+                    <a class="button is-success is-rounded">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
